@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 4E-BROWSER Iper Estremo 2999 🚀</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <main class="browser-container">
+        <header class="browser-header">
+            <h1>🚀 4E-BROWSER Iper Estremo 2999 🚀</h1>
+            <div class="theme-toggle" title="Attiva/disattiva tema scuro">
+                <button id="toggleTheme" aria-label="Cambia tema"><i class="fas fa-adjust"></i></button>
+            </div>
+            <div class="search-area">
+                <input type="text" class="search-bar" id="searchInput" placeholder="Cerca con 4E-BROWSER..." aria-label="Barra di ricerca">
+                <button class="search-button" id="searchButton" aria-label="Cerca"><i class="fas fa-search"></i></button>
+                <div class="search-progress" id="searchProgress"></div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Chi Siamo</a></li>
+                    <li><a href="#">Contatti</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Altro <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Politica sulla privacy</a>
+                            <a href="#">Termini di servizio</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <h2>Benvenuto nel 4E-BROWSER!</h2>
+            <p>Esplora contenuti straordinari in modo innovativo!</p>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/600x300" alt="Immagine di esempio" class="animated-image">
+            </div>
+            <div class="features">
+                <h3>Caratteristiche Principali:</h3>
+                <ul>
+                    <li><i class="fas fa-lock"></i> Sicurezza e privacy potenziate</li>
+                    <li><i class="fas fa-bolt"></i> Ricerca veloce e ottimizzata</li>
+                    <li><i class="fas fa-globe"></i> Accesso a fonti affidabili</li>
+                    <li><i class="fas fa-star"></i> Interfaccia utente moderna e reattiva</li>
+                </ul>
+            </div>
+            <section class="news-section">
+                <h3>Notizie Recenti:</h3>
+                <ul id="newsList"></ul>
+            </section>
+            <section class="poll-section">
+                <h3>Partecipa al Nostro Sondaggio!</h3>
+                <form id="pollForm" aria-labelledby="pollTitle">
+                    <label for="pollQuestion">Qual è il tuo argomento preferito?</label>
+                    <select id="pollQuestion" required>
+                        <option value="fantasia">Fantasia</option>
+                        <option value="scienza">Scienza</option>
+                        <option value="storia">Storia</option>
+                        <option value="tecnologia">Tecnologia</option>
+                    </select>
+                    <button type="submit">Vota</button>
+                </form>
+                <div class="poll-results" id="pollResults"></div>
+            </section>
+            <section class="feedback-section">
+                <h3>Il tuo Feedback è Importante!</h3>
+                <form id="feedbackForm" aria-labelledby="feedbackTitle">
+                    <textarea placeholder="Lascia il tuo feedback qui..." rows="4" required></textarea>
+                    <button type="submit">Invia Feedback</button>
+                    <div class="feedback-error" id="feedbackError"></div>
+                </form>
+                <div class="feedback-response" id="feedbackResponse"></div>
+            </section>
+            <section class="community-section">
+                <h3>Unisciti alla Nostra Community!</h3>
+                <p>Collegati con altri utenti e condividi le tue esperienze!</p>
+                <button class="community-button">Unisciti Ora</button>
+            </section>
+        </section>
+        <footer class="browser-footer">
+            <p>&copy; 2024 4E-BROWSER. Tutti i diritti riservati.</p>
+        </footer>
+    </main>
+    <div class="notification" role="alert">
+        <p>🔔 Nuovo aggiornamento disponibile! Scopri le ultime funzionalità di 4E-BROWSER.</p>
+        <button class="close-notification" aria-label="Chiudi notifiche"><i class="fas fa-times"></i></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
